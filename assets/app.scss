@@ -1,0 +1,31 @@
+body {
+  background: url('./image.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  color: rgb(68, 107, 139);
+}
+
+h2 {
+  color: rgb(208, 80, 72);
+}
+
+h3 {
+  color: rgb(40, 159, 52);
+
+  span {
+    text-transform: none !important;
+  }
+}
+
+.title-item {
+  font-family: Arial;
+  text-transform: uppercase;
+}
+.img{
+  width: 128px;
+  height: 128px;
+}

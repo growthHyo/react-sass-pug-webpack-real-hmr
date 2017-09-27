@@ -1,0 +1,39 @@
+{
+  "name": "Real Webpack HMR - React + Sass + Pug",
+  "version": "1.0.0",
+  "description": "Real Webpack HMR - React + Sass + Pug (it is not real at all.)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "image-webpack-loader": "^3.4.2",
+    "node-sass": "^4.5.3",
+    "pug-loader":"^2.3.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "prod": "npm run clean && NODE_ENV=production webpack -p",
+    "clean": "rimraf ./dist/*"
+  },
+  "keywords": ["React", "Webpack 3", "HMR", "Sass", "Pug"],
+  "author": "Anderson Dorregaray Linares",
+  "license": "ISC"
+}
